@@ -1,0 +1,55 @@
+*{
+    background: #ccc;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    margin:20;
+}
+
+.box{
+    display: flex;
+    margin: 20px;
+    
+}
+.preview{
+    position: relative;
+    height: 10px;
+    width: 10px;
+}
+
+        li{
+            border: solid 1px black;
+            list-style: none;
+            margin: 10px;
+            padding: 20px;
+            align-content: center;
+            background-color:#000;
+            font-family:sans-serif; 
+            color: white;
+            
+        }
+        li h1{
+            text-transform: uppercase;
+        }
+        ul{
+            display: flex;
+        }
+        button{
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            padding: 8px;
+            color: white;
+            border:none;
+            background-color: darkcyan;
+            box-shadow: 1px 1px 5px black ,2px 2px 20px black;
+            border : solid 2px darkcyan;
+            
+        }
+    
+        button:hover{
+            background-color: black;
+            border: solid 2px white;
+            
+        }
